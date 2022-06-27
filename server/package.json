@@ -1,0 +1,27 @@
+{
+  "name": "proxyblog-server",
+  "version": "1.0.0",
+  "description": "node server",
+  "main": "Index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmedbelaid/ProxyBlog.git"
+  },
+  "author": "Ahmed Belaid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmedbelaid/ProxyBlog/issues"
+  },
+  "homepage": "https://github.com/Ahmedbelaid/ProxyBlog#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.18"
+  }
+}
